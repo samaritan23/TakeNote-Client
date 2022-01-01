@@ -1,0 +1,130 @@
+.Login{
+    height: 100%;
+}
+
+.Signup{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.loginPage{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginPage img{
+    flex: 0.8;
+    width: 20px;
+    height: 400px;
+    margin-left: 140px;
+}
+
+.login{
+    flex: 1.2;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.login form{
+    padding: 40px;
+    padding-top: 10px;
+    width: 60%;
+    display: block;
+    text-align: left;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#forgotPassword{
+    font-size: small;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.signupArea{
+    display: flex;
+    align-items: center;
+
+}
+
+.signUpForm{
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+@media(max-width: 1165px) {
+	.loginPage{
+		flex-direction: column;
+		margin-top: 0;
+	}
+
+	.loginPage img{
+		/* width: 50%;
+		height: 500px;
+		margin: 20px auto; */
+        display: none;
+	}
+
+	.login{
+		width: 60%;
+		height: 500px;
+		margin: 30px auto;
+	}
+
+	.login form{
+		margin-top: 0;
+		width: 100%;
+		margin-left: 0;
+		padding-bottom: 0;
+	}
+
+	.buttons{
+		flex-direction: column;
+	}
+
+	.signupArea{
+		margin-top: 10px;
+		justify-content: space-between;
+	}
+
+	.popup-contents{
+		width: 80%;
+		height: auto;
+	}
+
+	.popup-contents img{
+		width: 30px;
+		height: 30px;
+	}
+
+	.popup-contents form input {
+		font-size: 11px;
+	}
+}
+
+@media (max-width: 600px) {
+	.login{
+		width: 280px;
+	}
+}
+
+@media (max-height: 360px) {
+	.bg-popup{
+		height: 200%;
+	}
+
+	.bg-popup-otp{
+		height: 200%;
+	}
+}

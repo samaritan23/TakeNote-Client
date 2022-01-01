@@ -1,0 +1,25 @@
+.Note{
+   /* z-index: -1 !important;  */
+   margin: 10px;
+   text-align: left !important;
+   box-shadow: 2px 3px 4px;
+   border-radius: 10px !important;
+   background-color: rgba(211, 211, 211, 0.750) !important;
+}
+
+.card-header{
+    display: flex;
+    padding: 2px 0px;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+}
+
+.card-body{
+    align-items: flex-start;
+}
+
+.crud i{
+    margin-left: 10px;
+    cursor: pointer;
+}
